@@ -1,6 +1,7 @@
 import {Container} from "@mui/material";
 import * as React from 'react';
 import Box from '@mui/material/Box';
+import Navbar from "../components/Navbar";
 
 const Layout = ({children}) => {
 
