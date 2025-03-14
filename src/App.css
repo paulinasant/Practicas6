@@ -1,3 +1,22 @@
+.footer {
+  font-family: cursive;
+  color: black;
+  background-color: royalblue;
+}
+.lorem{
+  font-family: cursive;
+  color: darkslateblue;
+}
+.sidebar{
+  color: darkslateblue;
+}
+.slide{
+  width: 500px; height: 300px;
+  display: block;
+  margin: auto;
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +54,6 @@
   to {
     transform: rotate(360deg);
   }
+
+
 }

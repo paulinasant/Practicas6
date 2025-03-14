@@ -1,6 +1,6 @@
 import {AppBar, Button, IconButton, Toolbar, Typography} from "@mui/material";
 import Box from '@mui/material/Box';
-
+import Sidebar from "./Sidebar";
 
 function MenuIcon() {
     return null;
@@ -8,9 +8,10 @@ function MenuIcon() {
 
 const  Navbar =() => {
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box  className="nav" sx={{ flexGrow: 1 }}>
             <AppBar position="static">
                 <Toolbar>
+                    <Sidebar/>
                     <IconButton
                         size="large"
                         edge="start"
@@ -21,11 +22,12 @@ const  Navbar =() => {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        News
+
                     </Typography>
-                    <Button color="inherit">Login</Button>
+                    <Button color="inherit">Acceso</Button>
                 </Toolbar>
             </AppBar>
         </Box>
     );
 };
+export default Navbar;

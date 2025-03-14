@@ -28,12 +28,12 @@ const Sidebar = () => {
                 <Box className="sidebar">
                     <List sx={{ width: 240 }} onClick={() => toggleDrawer(false)}>
                         <ListItem disablePadding>
-                            <ListItemButton component={Link} to="/inicio">
+                            <ListItemButton component={Link} to="/">
                                 <ListItemText primary="Inicio" />
                             </ListItemButton>
                         </ListItem>
                         <ListItem disablePadding>
-                            <ListItemButton component={Link} to="/sobre-nosotros">
+                            <ListItemButton component={Link} to="/about">
                                 <ListItemText primary="Sobre Nosotros" />
                             </ListItemButton>
                         </ListItem>

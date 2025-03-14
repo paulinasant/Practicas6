@@ -6,13 +6,17 @@ import Home from './components/Home';
 import About from './components/About';
 
 
+
+
 function App() {
   return (
       <Router>
         <Layout>
           <Routes>
             <Route path="/" element ={<Home />} />
-            <Route path="/" element ={<About />} />
+            <Route path="/about" element ={<About />} />
+              <Route path="/contacto" element ={<h1>Contacto</h1>} />
+
           </Routes>
         </Layout>
       </Router>

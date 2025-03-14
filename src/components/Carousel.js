@@ -13,8 +13,10 @@ const Carousel = () => {
     navigation
     pagination ={{clickable: true}}
     autoplay ={{ delay:3000}}
->
-    <SwiperSlide>
+    style={{width: "60%", height: "60%"}}
+    >
+
+    <SwiperSlide >
         <img src ="dispositiva1.jpg"  alt="Slide 1" className ="slide"/>
     </SwiperSlide>
 
@@ -28,7 +30,7 @@ const Carousel = () => {
 
 </Swiper>
 
-    );
+    )
 };
 
 export default Carousel;
